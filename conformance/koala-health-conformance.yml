@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.koala.health/state-notices
+note: >-
+  Koala Health is a licensed non-resident pharmacy rather than an API provider, so its
+  published conformance posture is pharmacy accreditation and state licensure, not API
+  or security standards. No public OpenAPI, OAuth surface or developer documentation was
+  found, so the API-standard entries below are recorded as not-applicable rather than
+  as failures.
+standards:
+- id: state-pharmacy-licensure
+  conforms: true
+  evidence: >-
+    Per-state non-resident pharmacy license numbers published with links to each state
+    Board of Pharmacy (Alabama 115131, California NRP2772, Florida PH33566, Massachusetts
+    DS90363, New York 039217, and the remaining states).
+  url: https://www.koala.health/state-notices
+- id: legitscript-certification
+  conforms: true
+  evidence: LegitScript certified website badge linked from the site footer.
+  url: https://www.legitscript.com/websites/?checker_keywords=koala.health
+- id: nabp-dot-pharmacy
+  conforms: true
+  evidence: NABP safe.pharmacy "Buy Safely" verification linked from the site footer.
+  url: https://safe.pharmacy/buy-safely/?url=koala.health
+- id: hsts
+  conforms: true
+  evidence: 'www.koala.health returns Strict-Transport-Security: max-age=63072000; includeSubDomains'
+- id: tls-1-3
+  conforms: true
+  evidence: TLSv1.3 negotiated on www.koala.health
+- id: dnssec
+  conforms: false
+  evidence: No DNSSEC on koala.health (probed 2026-07-19)
+- id: caa
+  conforms: false
+  evidence: No CAA records on koala.health (probed 2026-07-19)
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on all probed hosts
+- id: oauth2
+  conforms: false
+  evidence: not applicable - no public API or documented OAuth surface
+- id: openapi
+  conforms: false
+  evidence: not applicable - no published OpenAPI/Swagger definition found
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: not applicable - no public API surface to evaluate
