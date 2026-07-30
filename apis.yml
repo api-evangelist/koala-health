@@ -1,20 +1,50 @@
 aid: koala-health
 name: Koala Health
-description: Koala Health is a company surfaced as a portfolio company of menlo-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Koala Health is a digital pet pharmacy headquartered in Boston, Massachusetts
+  that dispenses prescription medications, vitamins, supplements and veterinary diets
+  for dogs and cats direct to pet parents, with an emphasis on chronic-condition medication
+  management. Orders are packaged into date- and time-sorted pouches, refilled automatically,
+  and prescriptions are fetched and verified directly with the pet parent''s veterinarian.
+  Koala also runs KoalaVet, a clinic-facing platform that integrates with veterinary
+  PIMS (practice information management systems) to sync client and patient records
+  two-way, let clinic teams review, approve and submit prescriptions in a few clicks,
+  and operate a branded managed online pharmacy for the practice. The company is a
+  licensed non-resident pharmacy across US states, is LegitScript certified and .pharmacy
+  (NABP) verified. Koala Health publishes no public developer API, developer portal
+  or API documentation as of this profile; api.koala.health resolves to an internal
+  Rails/Heroku administrative application behind sign-in.'
 url: https://raw.githubusercontent.com/api-evangelist/koala-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.koala.health/images/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - menlo-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pet Health
+- Veterinary
+- Pharmacy
+- Healthcare
+- E-Commerce
+- Prescriptions
+- Animal Health
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +53,45 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://koala.health
+  url: https://www.koala.health/
+- type: GettingStarted
+  url: https://www.koala.health/how-it-works
+- type: Support
+  url: https://www.koala.health/support
+- type: HelpCenter
+  url: https://www.koala.health/support
+- type: Blog
+  url: https://www.koala.health/blog
+- type: SignUp
+  url: https://www.koala.health/sign-in
+- type: Login
+  url: https://www.koala.health/sign-in
+- type: TermsOfService
+  url: https://www.koala.health/terms
+- type: PrivacyPolicy
+  url: https://www.koala.health/privacy
+- type: Compliance
+  url: https://www.koala.health/state-notices
+- type: Conformance
+  url: conformance/koala-health-conformance.yml
+- type: Press
+  url: https://www.koala.health/press
+- type: Careers
+  url: https://jobs.lever.co/koalahealth
+- type: GitHubOrganization
+  url: https://github.com/koala-health
+- type: LinkedIn
+  url: https://www.linkedin.com/company/koala-health/
+- type: Facebook
+  url: https://www.facebook.com/KoalaHealth
+- type: Instagram
+  url: https://www.instagram.com/koala_health/?hl=en
+- type: LLMsTxt
+  url: llms/koala-health-llms.txt
+- type: DomainSecurity
+  url: security/koala-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
