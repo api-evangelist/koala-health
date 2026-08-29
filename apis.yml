@@ -14,6 +14,17 @@ description: 'Koala Health is a digital pet pharmacy headquartered in Boston, Ma
   or API documentation as of this profile; api.koala.health resolves to an internal
   Rails/Heroku administrative application behind sign-in.'
 url: https://raw.githubusercontent.com/api-evangelist/koala-health/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
