@@ -64,15 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Koala Health is a digital pet pharmacy headquartered in Boston, Massachusetts that dispenses prescription medications, vitamins, supplements and veterinary diets for dogs and cats direct to pet parents, with an emphasis on chronic-condition medication management. Orders are packaged into date- and time-sorted pouches, refilled automatically, and prescriptions are fetched and verified directly with the pet parent's veterinarian.
+Koala Health is a digital pet pharmacy headquartered in Boston, Massachusetts that dispenses prescription medications, vitamins, supplements and veterinary diets for dogs and cats direct to pet parents, with an emphasis on chronic-condition medication management. Orders are packaged into date- and time-sorted pouches, refilled automatically, and prescriptions are fetched and verified directly with the pet parent's veterinarian. Koala also runs KoalaVet, a clinic-facing platform that integrates with veterinary PIMS (practice information management systems) to sync client and patient records two-way, let clinic teams review, approve and submit prescriptions in a few clicks, and operate a branded managed online pharmacy for the practice. The company is a licensed non-resident pharmacy across US states, is LegitScript certified and .pharmacy (NABP) verified. Koala Health publishes no public developer API, developer portal or API documentation as of this profile; api.koala.health resolves to an internal Rails/Heroku administrative application behind sign-in.
 
-Koala also runs **KoalaVet**, a clinic-facing platform that integrates with veterinary PIMS (practice information management systems) to sync client and patient records two-way, let clinic teams review, approve and submit prescriptions, and operate a branded managed online pharmacy for the practice.
+**Areas:** Company · Pet Health · Veterinary · Pharmacy · Healthcare · E-Commerce · Prescriptions · Animal Health · Direct to Consumer
 
-Koala Health is a licensed non-resident pharmacy across US states, LegitScript certified and NABP `.pharmacy` verified.
+## Koala Health on APIs.io
 
-**No public API.** As of 2026-07-19 Koala Health publishes no developer portal, API documentation, OpenAPI definition, SDKs or webhooks. `api.koala.health` resolves to an internal Rails/Heroku administrative application behind sign-in. This profile therefore carries identity, compliance and security-posture artifacts only.
+Everything profiled for Koala Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/koala-health/](https://apis.io/providers/koala-health/)** — or go straight to one of the APIs or properties below.
 
-- Website: https://www.koala.health/
-- For clinics: https://www.koala.health/clinics
-- State licenses: https://www.koala.health/state-notices
-- Backed by: menlo-ventures
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Koala Health Domain Security](https://apis.io/security/koala-health/koala-health-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.koala.health/)
+- [Getting started](https://www.koala.health/how-it-works)
+- [Sign up](https://www.koala.health/sign-in)
+- [Support](https://www.koala.health/support)
+- [Blog](https://www.koala.health/blog)
+- [Compliance](https://www.koala.health/state-notices)
+- [Terms of service](https://www.koala.health/terms)
+- [Privacy policy](https://www.koala.health/privacy)
+- [GitHub](https://github.com/koala-health)
+
+## API Evangelist rating
+
+**Kin Score 21.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/koala-health/](https://apis.io/providers/koala-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Koala Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/koala-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
